@@ -8,10 +8,10 @@ driver.get("https://github.com/login")
 driver.implicitly_wait(10)
 #driver.find_element_by_id("kw").send_keys("python")
 # 输入账号
-driver.find_element_by_id("login_field").send_keys("qunfm")
+driver.find_element_by_id("login_field").send_keys("name")
 # 输入密码
 sleep(3)
-driver.find_element_by_id("password").send_keys("lixue131")
+driver.find_element_by_id("password").send_keys("password")
 sleep(3)
 driver.find_element_by_name("commit").click()
 
